@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/* configurações das páginas "Sobre" e "SobreNos" */
+
+
+.titulo h4 {
+  font-size: 30px;
+}
+
+.paginasobre {
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box; /* Adicionando esta linha para incluir a margem e o padding na largura total */
+}
+
+.paginasobre h1 {
+  font-weight: bold;
+}
+
+.paginasobre h2 {
+  font-weight: 100;
+}
+
+.sobre img {
+  width: 40%; /* Alterando para 'max-width' para garantir que a imagem não ultrapasse a largura da tela */ 
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.sobre {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 30px;
+  align-items: center;
+  box-sizing: border-box; /* Adicionando esta linha para incluir a margem e o padding na largura total */
+}
+
+.descricao {
+  gap: 60px;
+  padding: 20px;
+  width: 45vw;
+  text-align: justify;
+}
+.descricao h1{
+ font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+  .titulo h4 {
+      font-size: 30px;
+  }
+
+  .sobre {
+      flex-direction: column; /* Alterando a direção para 'column' em telas menores */
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+  }
+  .descricao {
+      font-size: 20px;
+      text-align: justify;
+      width: 100%;
+  }
+  .sobre img {
+      width: 100%;
+  }
+}
+

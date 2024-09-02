@@ -1,0 +1,5 @@
+Prototipo de baixa fidelidade: https://www.figma.com/proto/ujBzOqi3ShFhUTrQy9H1FU/Your-Friend-You?type=design&node-id=7-3&t=ftAlq76IwV37Pmyi-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=7%3A3&show-proto-sidebar=1
+
+Github: https://github.com/ApolloMorningstar/Your-Friend-You.git
+
+trello: https://trello.com/invite/b/csC13I2d/ATTI8123e3c62208f00b0478563cccbcda892D270C39/trello-modelagem

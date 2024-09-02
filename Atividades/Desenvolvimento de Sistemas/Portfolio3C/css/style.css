@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.corpo{
+    background-color: #00C6CE;
+}
+
+.cabeça{
+    width: 100%;
+}
+
+.navbar{
+    overflow: hidden;
+    width: 100%; 
+    align-items: center;
+}
+.navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+.subtitulo{
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    color: #FFC516;
+}
+
+.aluno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.euzinho{
+    float: left;
+}
+.alunotext{
+    padding-left: 120px;
+    margin-left: 120px;
+    padding-top: 5%;
+    
+}
+
+.caixa{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+.butoes{
+    padding: 60px;
+    align-items:center;
+    border-radius: 10px;
+    color: #00C6CE;
+    background-color: #009FCB;
+    font-size: 20px;
+    width: 300px;
+    border-color: #000028;
+    border: 30px;
+}
+.butoes:hover{
+    background: #097fb9;
+}
+.pézin{
+    width: 100%;
+}

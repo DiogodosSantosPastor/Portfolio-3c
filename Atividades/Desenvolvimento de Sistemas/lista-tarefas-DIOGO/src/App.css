@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0e1e1;
+  }
+  
+  /* Estilo para o título */
+  h1 {
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 42px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+  }
+  
+  /* Estilo para o input e botões */
+  .input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input input {
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    width: 250px;
+  }
+  
+  .input button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para a lista de tarefas */
+  ul {
+    list-style: none;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  li span {
+    font-size: 16px;
+  }
+  
+  li button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+    border: 2px solid #000000;
+  }
+  
+  li button:hover {
+    background-color: #218838;
+  }
+  
+  li button.excluir {
+    background-color: #dc3545;
+  }
+  
+  li button.excluir:hover {
+    background-color: #c82333;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 32px;
+      text-align: center;
+      border: 2px solid #000000;
+    }
+  
+    .input {
+      flex-direction: column;
+    }
+  
+    .input input, .input button {
+      width: 100%;
+    }
+  
+    li {
+      flex-direction: column;
+      align-items: center;
+      border: 2px solid #000000;
+    }
+  
+    li button {
+      width: 100%;
+      margin-top: 10px;
+      margin-right: 10px;
+      border: 2px solid #000000;
+    }
+  }
